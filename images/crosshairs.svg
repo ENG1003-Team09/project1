@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4541"
+   viewBox="0 0 204.82303 204.37196"
+   height="204.37196mm"
+   width="204.82303mm">
+  <defs
+     id="defs4543">
+    <filter
+       id="filter5310"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5312"
+         result="blur1"
+         stdDeviation="4"
+         in="SourceAlpha" />
+      <feComposite
+         id="feComposite5314"
+         result="composite1"
+         operator="out"
+         in2="blur1"
+         in="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5316"
+         result="colormatrix1"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1 " />
+      <feGaussianBlur
+         id="feGaussianBlur5318"
+         result="blur2"
+         stdDeviation="0.5" />
+      <feComposite
+         id="feComposite5320"
+         result="composite2"
+         operator="over"
+         in2="blur2"
+         in="blur2" />
+      <feColorMatrix
+         id="feColorMatrix5322"
+         result="colormatrix2"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 -5 " />
+      <feGaussianBlur
+         id="feGaussianBlur5324"
+         result="blur3"
+         stdDeviation="1" />
+      <feColorMatrix
+         id="feColorMatrix5326"
+         result="colormatrix3"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -1 " />
+      <feFlood
+         id="feFlood5328"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite5330"
+         result="composite3"
+         operator="in"
+         in2="colormatrix3"
+         in="flood" />
+      <feComposite
+         id="feComposite5332"
+         result="composite4"
+         operator="out"
+         in2="colormatrix3"
+         in="SourceGraphic" />
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite5334"
+         result="composite5"
+         operator="arithmetic"
+         k3="1"
+         k2="1"
+         in2="composite3"
+         in="composite4" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4546">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-2.5884872,-46.314021)"
+     id="layer1">
+    <path
+       d="m 145.25348,148.64574 -81.292535,0 m 114.190155,0 -14.95596,0 m -116.390275,0 -14.95595,0 m 72.758285,57.88829 0,14.95596 m 0,-145.979971 0,14.95595 m 65.76788,58.179771 A 65.767868,65.767868 0 0 1 104.60722,214.4136 65.767868,65.767868 0 0 1 38.839335,148.64574 65.767868,65.767868 0 0 1 104.60722,82.877879 65.767868,65.767868 0 0 1 170.37508,148.64574 Z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4529-7-8-9-7-7" />
+    <path
+       d="m 145.25347,148.64574 -81.292527,0 m 114.190157,0 -14.95596,0 m -116.390277,0 -14.95595,0 m 72.758287,57.8883 0,14.95595 m 0,-145.979969 0,14.95595 m 65.76788,58.179769 a 65.767868,65.767868 0 0 1 -65.76786,65.76787 65.767868,65.767868 0 0 1 -65.767887,-65.76787 65.767868,65.767868 0 0 1 65.767887,-65.767859 65.767868,65.767868 0 0 1 65.76786,65.767859 z"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4529-7-8-9-7" />
+  </g>
+</svg>
