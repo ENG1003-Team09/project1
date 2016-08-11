@@ -102,7 +102,7 @@ function CameraVideoPageController(callback)
     {
         var videoContainer = document.getElementById("video-container");
         videoContainer.innerHTML = '<video autoplay class="bg-video"></video>' + 
-            '<object class="crosshairs" type="image/svg+xml" data="crosshairs.svg"></object>';
+            '<object class="crosshairs" type="image/svg+xml" data="images/crosshairs.svg"></object>';
         
         // Support different browsers
         navigator.getUserMedia = navigator.getUserMedia || 
