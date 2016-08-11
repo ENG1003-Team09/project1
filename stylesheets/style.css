@@ -1,0 +1,64 @@
+html, body { 
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+#video-container {
+    /* view height, minus header bar height */
+    height: calc(100vh - 56px);
+    position: relative;
+}
+
+.bg-video {
+    /* Prevent vertical scrolling */
+    height: calc(100vh - 56px);
+    width: 100%;
+    object-fit: cover;
+}
+
+#controls {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 2px;
+    width: calc(100vw - 10px);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hud {
+    position: absolute;
+    top: 0px; /* header is 44px high */
+    padding-left: 5px;
+    padding-top: 5px;
+    left: 2px;  
+    font-size: 1.2em;
+    
+    /* white with black outline: */
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.crosshairs {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
